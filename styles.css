@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* navigation bar */
+    nav {
+        /* font-family: sans-serif; */
+        color: white;
+        background-color: rgba(0, 0, 0, .9);
+
+        display: flex;
+        height: 60px;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto auto;
+    }
+
+    .navbar .logo {
+        margin-left: 50px;
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    .navbar ul {
+        font-size: 16px;
+        list-style-type: none;
+        display: flex;
+        gap: 20px;
+        margin-right: 50px;
+    }
+
+    .navbar a {
+        color: white;
+        text-decoration: none;
+    }
+    .navbar ul a:hover {
+        text-shadow: 0 0 5px rgb(59 210 230), 0 0 12px rgb(59 210 230), 0 0 20px rgb(59 210 230);
+        color: white;
+    }
+
+/* introduction */
+    .introduction {
+        position: relative;
+        text-align: center;
+    }
+
+    img {
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+    }
+
+    .introduction .intro-text{
+        color: white;
+        font-size: 2vw;
+        font-weight: bold;
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+    }
+
+    .intro-name {
+        width: 10em;
+        position: relative;
+    }
+    .intro-name:before {
+        content: "";
+        display: block;
+        width: 1.5em;
+        height: 2px;
+        left: 0;
+        top: 50%;
+        position: absolute;
+        background-color: white;
+    }
+    .intro-name:after {
+        content: "";
+        display: block;
+        width: 1.5em;
+        height: 2px;
+        right: 0;
+        top: 50%;
+        position: absolute;
+        background-color: white;
+    }
+
+/* about me */
+    .about-me {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        font-size: 1.5em;
+        padding: 5vw;
+    }
+
+    .about-me img {
+        margin-left: 5vw;
+        min-width: 30vw;
+    }
+
+    .about-me .about-me-para {
+        /* font-size: 2em; */
+    }
+
+/* timeline */
+    .timeline h2 {
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 30px;
+    }
+    .timeline ol {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* notre dame */
+    .notre-dame {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .notre-dame img {
+        /* min-height: 600px; */
+    }
+    .notre-dame p {
+        position: absolute;
+        margin-left: 15vw;
+        width: 600px;
+        
+        font-size: 18px;
+        padding: 30px;
+        text-align: center;
+        color: white;
+
+        background-color: rgba(0, 0, 0, .6);
+        border-radius: 10px;
+    }
+
+    /* internship */
+    .internship {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .internship img {
+        height: 600px;
+    }
+    .internship p {
+        position: absolute;
+        margin-left: 65vw;
+        width: 600px;
+        
+        font-size: 18px;
+        padding: 30px;
+        text-align: center;
+        color: white;
+
+        background-color: rgba(0, 0, 0, .6);
+        border-radius: 10px;
+    }
+
+    /* insight */
+    .insight {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .insight img {
+        
+    }
+    .insight p {
+        position: absolute;
+        margin-left: 15vw;
+        width: 600px;
+        
+        font-size: 18px;
+        padding: 30px;
+        text-align: center;
+        color: white;
+
+        background-color: rgba(0, 0, 0, .6);
+        border-radius: 10px;
+    }
+
+    /* self-study */
+    .self-study {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .self-study img {
+        height: 600px;
+    }
+    .self-study p {
+        position: absolute;
+        margin-left: 65vw;
+        width: 600px;
+        
+        font-size: 18px;
+        padding: 30px;
+        text-align: center;
+        color: white;
+
+        background-color: rgba(0, 0, 0, .6);
+        border-radius: 10px;
+    }
+
+    /* new job */
+    .new-job {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .new-job img {
+        height: 600px;
+    }
+    .new-job p {
+        position: absolute;
+        width: 600px;
+        
+        font-size: 18px;
+        padding: 30px;
+        text-align: center;
+        color: white;
+
+        background-color: rgba(0, 0, 0, .6);
+        border-radius: 10px;
+    }
