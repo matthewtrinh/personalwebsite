@@ -330,8 +330,7 @@ html {
         display: flex;
         flex-direction: column;
         gap: 80px;
-        margin-left: 140px;
-        margin-top: 25px;
+        margin: 25px auto;
 
         width: 1000px;
     }
@@ -381,40 +380,22 @@ html {
         font-size: 14px;
     }
 
-    /* personal website */
-    #personal-website {
+    /* figma website */
+    #figma-website {
         display: flex;
     }
 
-    #personal-website video {
+    #figma-website video {
         width: 600px;
     }
 
-    #personal-website div {
+    #figma-website div {
         padding: 25px;
         margin: 0 auto;
         text-align: center;
     }
 
-    #personal-website div p {
-        padding: 15px;
-    }
-
-    /* cookbook */
-    #cookbook-container {
-        display: flex;
-    }
-
-    #cookbook-container video {
-        width: 500px;
-    }
-
-    #cookbook-container div {
-        padding: 50px 30px;
-        text-align: center;
-    }
-
-    #cookbook-container div p {
+    #figma-website div p {
         padding: 15px;
     }
 
@@ -424,7 +405,7 @@ html {
     }
 
     #report-container img {
-        width: 400px;
+        width: 450px;
     }
 
     #report-container div {
@@ -532,6 +513,24 @@ html {
 
     #etch-a-sketch div p {
         padding: 10px;
+    }
+
+    /* cookbook */
+    #cookbook-container {
+        display: flex;
+    }
+
+    #cookbook-container video {
+        width: 500px;
+    }
+
+    #cookbook-container div {
+        padding: 50px 30px;
+        text-align: center;
+    }
+
+    #cookbook-container div p {
+        padding: 15px;
     }
 
     /* Contact */
